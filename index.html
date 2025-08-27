@@ -42,7 +42,12 @@
           <div
             class="flex items-center bg-[#41FF6B]/10 py-[14px] px-[35.5px] rounded-[50px]"
           >
-            <h2 class="mr-[10px] text-[#000000] font-black font-inter">0</h2>
+            <h2
+              id="love-counter"
+              class="mr-[10px] text-[#000000] font-black font-inter"
+            >
+              0
+            </h2>
             <img class="w-[25.79px]" src="assets/heart.png" alt="" />
           </div>
           <div
@@ -89,7 +94,7 @@
         <div
           class="card-main md:grid md:grid-cols-3 gap-[30px] justify-start items-start"
         >
-          <!-- This is the card -->
+          <!-- This is the card And starts here -->
           <div
             class="md:w-[320px] md:h-[420px] rounded-xl md:px-8 px-4 py-4 md:py-8 bg-[#FFFFFF] md:mb-0 mb-6 shadow-md"
           >
@@ -102,7 +107,11 @@
                 />
               </div>
               <div>
-                <img class="w-8 md:w-6" src="icons8-love-24.png" alt="" />
+                <img
+                  class="love-icon w-8 md:w-6"
+                  src="icons8-love-24.png"
+                  alt=""
+                />
               </div>
             </div>
             <h3 class="madurai-font font-bold text-2xl mt-4">
@@ -151,7 +160,11 @@
                 />
               </div>
               <div>
-                <img class="w-8 md:w-6" src="icons8-love-24.png" alt="" />
+                <img
+                  class="love-icon w-8 md:w-6"
+                  src="icons8-love-24.png"
+                  alt=""
+                />
               </div>
             </div>
             <h3 class="madurai-font font-bold text-2xl mt-4">
@@ -200,7 +213,11 @@
                 />
               </div>
               <div>
-                <img class="w-8 md:w-6" src="icons8-love-24.png" alt="" />
+                <img
+                  class="love-icon w-8 md:w-6"
+                  src="icons8-love-24.png"
+                  alt=""
+                />
               </div>
             </div>
             <h3 class="madurai-font font-bold text-2xl mt-4">
@@ -248,7 +265,11 @@
                 />
               </div>
               <div>
-                <img class="w-8 md:w-6" src="icons8-love-24.png" alt="" />
+                <img
+                  class="love-icon w-8 md:w-6"
+                  src="icons8-love-24.png"
+                  alt=""
+                />
               </div>
             </div>
             <h3 class="madurai-font font-bold text-2xl mt-4">
@@ -296,7 +317,11 @@
                 />
               </div>
               <div>
-                <img class="w-8 md:w-6" src="icons8-love-24.png" alt="" />
+                <img
+                  class="love-icon w-8 md:w-6"
+                  src="icons8-love-24.png"
+                  alt=""
+                />
               </div>
             </div>
             <h3 class="madurai-font font-bold text-2xl mt-4">
@@ -344,7 +369,11 @@
                 />
               </div>
               <div>
-                <img class="w-8 md:w-6" src="icons8-love-24.png" alt="" />
+                <img
+                  class="love-icon w-8 md:w-6"
+                  src="icons8-love-24.png"
+                  alt=""
+                />
               </div>
             </div>
             <h3 class="madurai-font font-bold text-2xl mt-4">
@@ -393,7 +422,11 @@
                 />
               </div>
               <div>
-                <img class="w-8 md:w-6" src="icons8-love-24.png" alt="" />
+                <img
+                  class="love-icon w-8 md:w-6"
+                  src="icons8-love-24.png"
+                  alt=""
+                />
               </div>
             </div>
             <h3 class="madurai-font font-bold text-2xl mt-4">
@@ -438,7 +471,11 @@
                 <img class="px-[14px] py-[14px]" src="assets/brac.png" alt="" />
               </div>
               <div>
-                <img class="w-8 md:w-6" src="icons8-love-24.png" alt="" />
+                <img
+                  class="love-icon w-8 md:w-6"
+                  src="icons8-love-24.png"
+                  alt=""
+                />
               </div>
             </div>
             <h3 class="madurai-font font-bold text-2xl mt-4">Brac Helpline</h3>
@@ -485,7 +522,11 @@
                 />
               </div>
               <div>
-                <img class="w-8 md:w-6" src="icons8-love-24.png" alt="" />
+                <img
+                  class="love-icon w-8 md:w-6"
+                  src="icons8-love-24.png"
+                  alt=""
+                />
               </div>
             </div>
             <h3 class="madurai-font font-bold text-2xl mt-4">
@@ -524,7 +565,7 @@
         </div>
         <!-- History Section -->
         <div
-          class="w-[380px] h-[50vh] md:h-[1322px] bg-[#FFFFFF] mb-8 rounded-xl shadow-md"
+          class="w-[380px] h-[50vh] md:h-[1322px] bg-[#FFFFFF] mb-8 rounded-xl mr-8 shadow-md"
         >
           <div class="flex items-center pt-6 px-6">
             <div>
@@ -535,7 +576,8 @@
             </div>
             <div>
               <button
-                class="bg-[#00A63E] text-[#FFFFFF] font-inter font-semibold py-[14px] px-9 rounded-[50px] md:ml-[65px] ml-[75px]"
+                id="history-btn"
+                class="bg-[#00A63E] text-[#FFFFFF] font-inter font-semibold py-[14px] px-9 rounded-[50px] md:ml-[65px] ml-[50px]"
               >
                 Clear
               </button>
@@ -544,5 +586,6 @@
         </div>
       </div>
     </section>
+    <script src="index.js"></script>
   </body>
 </html>
