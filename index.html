@@ -38,9 +38,9 @@
           </div>
         </div>
         <!-- Nav icons -->
-        <div class="flex md:gap-5 mx-4 justify-between mt-7 md:mt-0">
+        <div class="md:flex md:gap-5 mx-4 md:justify-between mt-7 md:mt-0">
           <div
-            class="flex items-center bg-[#41FF6B]/10 py-[14px] px-[35.5px] rounded-[50px]"
+            class="flex items-center bg-[#41FF6B]/10 py-[14px] px-[35.5px] rounded-[50px] ml-68 md:ml-0 mb-2 md:mb-0"
           >
             <h2
               id="love-counter"
@@ -51,13 +51,20 @@
             <img class="w-[25.79px]" src="assets/heart.png" alt="" />
           </div>
           <div
-            class="flex items-center bg-[#41FF6B]/10 py-[14px] px-5 rounded-[50px]"
+            class="flex items-center bg-[#41FF6B]/10 py-[14px] px-5 rounded-[50px] ml-68 md:ml-0 mb-2 md:mb-0"
           >
-            <h2 class="text-[#000000] font-inter font-black mr-[10px]">100</h2>
+            <h2
+              id="coin-box"
+              class="text-[#000000] font-inter font-black mr-[10px]"
+            >
+              100
+            </h2>
             <img class="w-6 h-6" src="assets/coin.png" alt="" />
           </div>
-          <div class="bg-[#00A63E] py-[14px] px-[35.5px] rounded-[50px]">
-            <h2 class="text-[#FFFFFF] font-inter font-semibold">
+          <div
+            class="bg-[#00A63E] py-[14px] px-[35.5px] rounded-[50px] ml-65 md:ml-0 mb-2 md:mb-0"
+          >
+            <h2 class="text-[#FFFFFF] font-inter font-semibold flex gap-[10px]">
               <span>0</span> Copy
             </h2>
           </div>
@@ -89,14 +96,14 @@
     <!-- Card Section -->
     <section class="">
       <div
-        class="parent mt-12 mx-4 md:mr-[62px] md:mb-[86px] md:ml-[58px] md:flex md:gap-[30px]"
+        class="parent mt-12 mx-4 md:mr-[30px] md:mb-[86px] md:ml-[58px] md:flex md:gap-[30px]"
       >
         <div
           class="card-main md:grid md:grid-cols-3 gap-[30px] justify-start items-start"
         >
           <!-- This is the card And starts here -->
           <div
-            class="md:w-[320px] md:h-[420px] rounded-xl md:px-8 px-4 py-4 md:py-8 bg-[#FFFFFF] md:mb-0 mb-6 shadow-md"
+            class="card1 md:w-[320px] md:h-[420px] rounded-xl md:px-8 px-4 py-4 md:py-8 bg-[#FFFFFF] md:mb-0 mb-6 shadow-md"
           >
             <div class="flex justify-between items-center">
               <div class="bg-[#FFE3E2] w-[60px] rounded-2xl">
@@ -114,14 +121,15 @@
                 />
               </div>
             </div>
-            <h3 class="madurai-font font-bold text-2xl mt-4">
+            <h3 id="card-title1" class="madurai-font font-bold text-2xl mt-4">
               National Emergency Number
             </h3>
             <p class="text-[18px] roboto-font text-[#5C5C5C] mb-6">
               National Emergency
             </p>
             <h4
-              class="roboto-font font-bold text-[32px] text-[#111111] mb-[2px]"
+              id="card-number1"
+              class="phone-number roboto-font font-bold text-[32px] text-[#111111] mb-[2px]"
             >
               999
             </h4>
@@ -132,12 +140,13 @@
             </p>
             <div class="flex gap-2">
               <button
-                class="roboto-font text-[#5C5C5C] py-[10.5px] px-8 border-2 border-[#5C5C5C]/40 rounded-lg flex items-center"
+                class="copy-btn roboto-font text-[#5C5C5C] py-[10.5px] px-8 border-2 border-[#5C5C5C]/40 rounded-lg flex items-center"
               >
                 <img class="mr-[6px]" src="icons8-copy-16.png" alt="" />Copy
               </button>
               <button
-                class="roboto-font text-[#FFFFFF] bg-[#00A63E] py-[10.5px] px-8 rounded-lg flex items-center"
+                id=""
+                class="call-btn roboto-font text-[#FFFFFF] bg-[#00A63E] py-[10.5px] px-8 rounded-lg flex items-center"
               >
                 <img
                   class="h-5 mr-[6px]"
@@ -149,7 +158,7 @@
           </div>
           <!-- This is the card -->
           <div
-            class="md:w-[320px] md:h-[420px] rounded-xl md:px-8 px-4 py-4 md:py-8 bg-[#FFFFFF] md:mb-0 mb-6 shadow-md"
+            class="card2 md:w-[320px] md:h-[420px] rounded-xl md:px-8 px-4 py-4 md:py-8 bg-[#FFFFFF] md:mb-0 mb-6 shadow-md"
           >
             <div class="flex justify-between items-center">
               <div class="bg-[#FFE3E2] w-[60px] rounded-2xl">
@@ -174,7 +183,7 @@
               Police
             </p>
             <h4
-              class="roboto-font font-bold text-[32px] text-[#111111] mb-[2px]"
+              class="phone-number roboto-font font-bold text-[32px] text-[#111111] mb-[2px]"
             >
               999
             </h4>
@@ -185,12 +194,12 @@
             </p>
             <div class="flex gap-2">
               <button
-                class="roboto-font text-[#5C5C5C] py-[10.5px] px-8 border-2 border-[#5C5C5C]/40 rounded-lg flex items-center"
+                class="copy-btn roboto-font text-[#5C5C5C] py-[10.5px] px-8 border-2 border-[#5C5C5C]/40 rounded-lg flex items-center"
               >
                 <img class="mr-[6px]" src="icons8-copy-16.png" alt="" />Copy
               </button>
               <button
-                class="roboto-font text-[#FFFFFF] bg-[#00A63E] py-[10.5px] px-8 rounded-lg flex items-center"
+                class="call-btn roboto-font text-[#FFFFFF] bg-[#00A63E] py-[10.5px] px-8 rounded-lg flex items-center"
               >
                 <img
                   class="h-5 mr-[6px]"
@@ -202,7 +211,7 @@
           </div>
           <!-- This is the card -->
           <div
-            class="md:w-[320px] md:h-[420px] rounded-xl md:px-8 px-4 py-4 md:py-8 bg-[#FFFFFF] md:mb-0 mb-6 shadow-md"
+            class="card3 md:w-[320px] md:h-[420px] rounded-xl md:px-8 px-4 py-4 md:py-8 bg-[#FFFFFF] md:mb-0 mb-6 shadow-md"
           >
             <div class="flex justify-between items-center">
               <div class="bg-[#FFE3E2] w-[60px] rounded-2xl">
@@ -227,7 +236,7 @@
               Fire Service
             </p>
             <h4
-              class="roboto-font font-bold text-[32px] text-[#111111] mb-[2px]"
+              class="phone-number roboto-font font-bold text-[32px] text-[#111111] mb-[2px]"
             >
               999
             </h4>
@@ -238,12 +247,12 @@
             </p>
             <div class="flex gap-2">
               <button
-                class="roboto-font text-[#5C5C5C] py-[10.5px] px-8 border-2 border-[#5C5C5C]/40 rounded-lg flex items-center"
+                class="copy-btn roboto-font text-[#5C5C5C] py-[10.5px] px-8 border-2 border-[#5C5C5C]/40 rounded-lg flex items-center"
               >
                 <img class="mr-[6px]" src="icons8-copy-16.png" alt="" />Copy
               </button>
               <button
-                class="roboto-font text-[#FFFFFF] bg-[#00A63E] py-[10.5px] px-8 rounded-lg flex items-center"
+                class="call-btn roboto-font text-[#FFFFFF] bg-[#00A63E] py-[10.5px] px-8 rounded-lg flex items-center"
               >
                 <img
                   class="h-5 mr-[6px]"
@@ -254,7 +263,7 @@
             </div>
           </div>
           <div
-            class="md:w-[320px] md:h-[420px] rounded-xl md:px-8 px-4 py-4 md:py-8 bg-[#FFFFFF] md:mb-0 mb-6 shadow-md"
+            class="card4 md:w-[320px] md:h-[420px] rounded-xl md:px-8 px-4 py-4 md:py-8 bg-[#FFFFFF] md:mb-0 mb-6 shadow-md"
           >
             <div class="flex justify-between items-center">
               <div class="bg-[#FFE3E2] w-[60px] rounded-2xl">
@@ -279,7 +288,7 @@
               Ambulance
             </p>
             <h4
-              class="roboto-font font-bold text-[32px] text-[#111111] mb-[2px]"
+              class="phone-number roboto-font font-bold text-[32px] text-[#111111] mb-[2px]"
             >
               1994-999999
             </h4>
@@ -290,12 +299,12 @@
             </p>
             <div class="flex gap-2">
               <button
-                class="roboto-font text-[#5C5C5C] py-[10.5px] px-8 border-2 border-[#5C5C5C]/40 rounded-lg flex items-center"
+                class="copy-btn roboto-font text-[#5C5C5C] py-[10.5px] px-8 border-2 border-[#5C5C5C]/40 rounded-lg flex items-center"
               >
                 <img class="mr-[6px]" src="icons8-copy-16.png" alt="" />Copy
               </button>
               <button
-                class="roboto-font text-[#FFFFFF] bg-[#00A63E] py-[10.5px] px-8 rounded-lg flex items-center"
+                class="call-btn roboto-font text-[#FFFFFF] bg-[#00A63E] py-[10.5px] px-8 rounded-lg flex items-center"
               >
                 <img
                   class="h-5 mr-[6px]"
@@ -306,7 +315,7 @@
             </div>
           </div>
           <div
-            class="md:w-[320px] md:h-[420px] rounded-xl md:px-8 px-4 py-4 md:py-8 bg-[#FFFFFF] md:mb-0 mb-6 shadow-md"
+            class="card md:w-[320px] md:h-[420px] rounded-xl md:px-8 px-4 py-4 md:py-8 bg-[#FFFFFF] md:mb-0 mb-6 shadow-md"
           >
             <div class="flex justify-between items-center">
               <div class="bg-[#FFE3E2] w-[60px] rounded-2xl">
@@ -331,7 +340,7 @@
               Women & Child Helpline
             </p>
             <h4
-              class="roboto-font font-bold text-[32px] text-[#111111] mb-[2px]"
+              class="phone-number roboto-font font-bold text-[32px] text-[#111111] mb-[2px]"
             >
               109
             </h4>
@@ -342,12 +351,12 @@
             </p>
             <div class="flex gap-2">
               <button
-                class="roboto-font text-[#5C5C5C] py-[10.5px] px-8 border-2 border-[#5C5C5C]/40 rounded-lg flex items-center"
+                class="copy-btn roboto-font text-[#5C5C5C] py-[10.5px] px-8 border-2 border-[#5C5C5C]/40 rounded-lg flex items-center"
               >
                 <img class="mr-[6px]" src="icons8-copy-16.png" alt="" />Copy
               </button>
               <button
-                class="roboto-font text-[#FFFFFF] bg-[#00A63E] py-[10.5px] px-8 rounded-lg flex items-center"
+                class="call-btn roboto-font text-[#FFFFFF] bg-[#00A63E] py-[10.5px] px-8 rounded-lg flex items-center"
               >
                 <img
                   class="h-5 mr-[6px]"
@@ -358,7 +367,7 @@
             </div>
           </div>
           <div
-            class="md:w-[320px] md:h-[420px] rounded-xl md:px-8 px-4 py-4 md:py-8 bg-[#FFFFFF] md:mb-0 mb-6 shadow-md"
+            class="card md:w-[320px] md:h-[420px] rounded-xl md:px-8 px-4 py-4 md:py-8 bg-[#FFFFFF] md:mb-0 mb-6 shadow-md"
           >
             <div class="flex justify-between items-center">
               <div class="bg-[#FFE3E2] w-[60px] rounded-2xl">
@@ -383,7 +392,7 @@
               Anti-Corruption
             </p>
             <h4
-              class="roboto-font font-bold text-[32px] text-[#111111] mb-[2px]"
+              class="phone-number roboto-font font-bold text-[32px] text-[#111111] mb-[2px]"
             >
               106
             </h4>
@@ -394,12 +403,12 @@
             </p>
             <div class="flex gap-2">
               <button
-                class="roboto-font text-[#5C5C5C] py-[10.5px] px-8 border-2 border-[#5C5C5C]/40 rounded-lg flex items-center"
+                class="copy-btn roboto-font text-[#5C5C5C] py-[10.5px] px-8 border-2 border-[#5C5C5C]/40 rounded-lg flex items-center"
               >
                 <img class="mr-[6px]" src="icons8-copy-16.png" alt="" />Copy
               </button>
               <button
-                class="roboto-font text-[#FFFFFF] bg-[#00A63E] py-[10.5px] px-8 rounded-lg flex items-center"
+                class="call-btn roboto-font text-[#FFFFFF] bg-[#00A63E] py-[10.5px] px-8 rounded-lg flex items-center"
               >
                 <img
                   class="h-5 mr-[6px]"
@@ -411,7 +420,7 @@
           </div>
           <!-- This is the card -->
           <div
-            class="md:w-[320px] md:h-[420px] rounded-xl md:px-8 px-4 py-4 md:py-8 bg-[#FFFFFF] mb-6 shadow-md"
+            class="card md:w-[320px] md:h-[420px] rounded-xl md:px-8 px-4 py-4 md:py-8 bg-[#FFFFFF] mb-6 shadow-md"
           >
             <div class="flex justify-between items-center">
               <div class="bg-[#FFE3E2] w-[60px] rounded-2xl">
@@ -436,7 +445,7 @@
               Electricity Outage
             </p>
             <h4
-              class="roboto-font font-bold text-[32px] text-[#111111] mb-[2px]"
+              class="phone-number roboto-font font-bold text-[32px] text-[#111111] mb-[2px]"
             >
               16216
             </h4>
@@ -447,12 +456,12 @@
             </p>
             <div class="flex gap-2">
               <button
-                class="roboto-font text-[#5C5C5C] py-[10.5px] px-8 border-2 border-[#5C5C5C]/40 rounded-lg flex items-center"
+                class="copy-btn roboto-font text-[#5C5C5C] py-[10.5px] px-8 border-2 border-[#5C5C5C]/40 rounded-lg flex items-center"
               >
                 <img class="mr-[6px]" src="icons8-copy-16.png" alt="" />Copy
               </button>
               <button
-                class="roboto-font text-[#FFFFFF] bg-[#00A63E] py-[10.5px] px-8 rounded-lg flex items-center"
+                class="call-btn roboto-font text-[#FFFFFF] bg-[#00A63E] py-[10.5px] px-8 rounded-lg flex items-center"
               >
                 <img
                   class="h-5 mr-[6px]"
@@ -464,7 +473,7 @@
           </div>
           <!-- This is the card -->
           <div
-            class="md:w-[320px] md:h-[420px] rounded-xl md:px-8 px-4 py-4 md:py-8 bg-[#FFFFFF] mb-6 shadow-md"
+            class="card md:w-[320px] md:h-[420px] rounded-xl md:px-8 px-4 py-4 md:py-8 bg-[#FFFFFF] mb-6 shadow-md"
           >
             <div class="flex justify-between items-center">
               <div class="bg-[#FFE3E2] w-[60px] rounded-2xl">
@@ -483,7 +492,7 @@
               Brac
             </p>
             <h4
-              class="roboto-font font-bold text-[32px] text-[#111111] mb-[2px]"
+              class="phone-number roboto-font font-bold text-[32px] text-[#111111] mb-[2px]"
             >
               16445
             </h4>
@@ -494,12 +503,12 @@
             </p>
             <div class="flex gap-2">
               <button
-                class="roboto-font text-[#5C5C5C] py-[10.5px] px-8 border-2 border-[#5C5C5C]/40 rounded-lg flex items-center"
+                class="copy-btn roboto-font text-[#5C5C5C] py-[10.5px] px-8 border-2 border-[#5C5C5C]/40 rounded-lg flex items-center"
               >
                 <img class="mr-[6px]" src="icons8-copy-16.png" alt="" />Copy
               </button>
               <button
-                class="roboto-font text-[#FFFFFF] bg-[#00A63E] py-[10.5px] px-8 rounded-lg flex items-center"
+                class="call-btn roboto-font text-[#FFFFFF] bg-[#00A63E] py-[10.5px] px-8 rounded-lg flex items-center"
               >
                 <img
                   class="h-5 mr-[6px]"
@@ -511,7 +520,7 @@
           </div>
           <!-- This is the card -->
           <div
-            class="md:w-[320px] md:h-[420px] rounded-xl md:px-8 px-4 py-4 md:py-8 bg-[#FFFFFF] mb-12 shadow-md"
+            class="card md:w-[320px] md:h-[420px] rounded-xl md:px-8 px-4 py-4 md:py-8 bg-[#FFFFFF] mb-12 shadow-md"
           >
             <div class="flex justify-between items-center">
               <div class="bg-[#FFE3E2] w-[60px] rounded-2xl">
@@ -536,7 +545,7 @@
               Bangladesh Railway
             </p>
             <h4
-              class="roboto-font font-bold text-[32px] text-[#111111] mb-[2px]"
+              class="phone-number roboto-font font-bold text-[32px] text-[#111111] mb-[2px]"
             >
               163
             </h4>
@@ -547,12 +556,12 @@
             </p>
             <div class="flex gap-2">
               <button
-                class="roboto-font text-[#5C5C5C] py-[10.5px] px-8 border-2 border-[#5C5C5C]/40 rounded-lg flex items-center"
+                class="copy-btn roboto-font text-[#5C5C5C] py-[10.5px] px-8 border-2 border-[#5C5C5C]/40 rounded-lg flex items-center"
               >
                 <img class="mr-[6px]" src="icons8-copy-16.png" alt="" />Copy
               </button>
               <button
-                class="roboto-font text-[#FFFFFF] bg-[#00A63E] py-[10.5px] px-8 rounded-lg flex items-center"
+                class="call-btn roboto-font text-[#FFFFFF] bg-[#00A63E] py-[10.5px] px-8 rounded-lg flex items-center"
               >
                 <img
                   class="h-5 mr-[6px]"
@@ -564,10 +573,10 @@
           </div>
         </div>
         <!-- History Section -->
-        <div
-          class="w-[380px] h-[50vh] md:h-[1322px] bg-[#FFFFFF] mb-8 rounded-xl mr-8 shadow-md"
+        <aside
+          class="w-[400px] h-[50vh] md:h-[1322px] bg-[#FFFFFF] mb-8 rounded-xl mr-8 shadow-md"
         >
-          <div class="flex items-center pt-6 px-6">
+          <div class="flex items-center pt-6 px-6 shadow-md pb-4">
             <div>
               <img src="icons8-clock-32.png" alt="" />
             </div>
@@ -577,13 +586,14 @@
             <div>
               <button
                 id="history-btn"
-                class="bg-[#00A63E] text-[#FFFFFF] font-inter font-semibold py-[14px] px-9 rounded-[50px] md:ml-[65px] ml-[50px]"
+                class="bg-[#00A63E] text-[#FFFFFF] font-inter font-semibold py-[14px] px-9 rounded-[50px] md:ml-[80px] ml-[80px]"
               >
                 Clear
               </button>
             </div>
           </div>
-        </div>
+          <div class="" id="history-container"></div>
+        </aside>
       </div>
     </section>
     <script src="index.js"></script>
