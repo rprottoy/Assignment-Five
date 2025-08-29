@@ -15,26 +15,12 @@ document.querySelectorAll() selects all elements that match CSS selector and ret
 Answer:
 
 Firstly I access the element where I'm about to insert the new elements.
-const historyContainer = document.getElementById("history-container");
 
-Secondly I create a new empty element
-const newCard = document.createElement("div");
+Secondly I create a new empty element.
 
-Then I create structure of the new elements
-newCard.innerHTML =
+Then I create structure of the new elements.
 
- <!-- ` <div id="history" class="px-3.5 py-2 bg-[##FAFAFA] shadow-md">
-    <h3 class="font-inter font-semibold text-[18px] pt-4 pl-4 mb-1 text-[#111111]">
-      ${cardTitle}
-    </h3>
-    <div class="flex justify-between">
-      <p class="madurai-font text-[18px] text-[#5C5C5C] pl-4">${phoneNumber}</p>
-      <span class="madurai-font text-[18px] text-[#111111] pr-4">${callTime}</span>
-    </div>
-  </div>;` -->
-
-Lastly I append the newly created elements to the existing element
-historyContainer.append(newCard);
+Lastly I append the newly created elements to the existing element.
 
 3. What is Event Bubbling and how does it work?
 
