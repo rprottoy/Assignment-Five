@@ -41,7 +41,7 @@ for (let callBtn of callBtns) {
     // creating Div
     const newCard = document.createElement("div");
 
-    newCard.innerHTML = `<div id="history" class="px-3.5 py-2 bg-[##FAFAFA] shadow-md">
+    newCard.innerHTML = `<div id="history" class="px-3.5 py-2 bg-[#FAFAFA] shadow-md">
       <h3 class="font-inter font-semibold text-[18px] pt-4 pl-4 mb-1 text-[#111111]">
         ${cardTitle}
       </h3>
